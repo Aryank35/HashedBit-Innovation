@@ -1,0 +1,147 @@
+
+/* Navbar */
+.nav {
+    overflow: hidden;
+    z-index: 50;
+    display: block;
+   
+}
+.nav ul {
+	
+}
+.sol-menu li {
+   
+}
+.sol-menu li a {
+	
+    -webkit-transition: all 0.3s ease;                  
+    -moz-transition: all 0.3s ease;                 
+    -o-transition: all 0.3s ease;   
+    -ms-transition: all 0.3s ease;          
+    transition: all 0.3s ease;
+}
+.sol-menu li a:hover {
+	background: rgb(51,40,32);
+background: linear-gradient(90deg, rgba(51,40,32,1) 0%, rgba(88,50,13,1) 17%, rgba(191,103,18,0.936186974789916) 50%, rgba(88,50,13,1) 83%, rgba(51,40,33,1) 100%);
+color:#fff;
+}
+
+.altmenu-ac {
+	display: none;
+}
+.menu-ac {
+	display: none !important;
+	padding: 10px;
+	cursor: pointer;
+	color: #000;
+}
+.menu-ac i{
+    background: #038e9ac9;
+    padding: 25px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 767px ){
+.slimain{
+	z-index:9;
+}
+.ac {
+    display: none;
+    background: rgb(0 0 0 / 61%);
+    padding: 20px;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 15px;
+    border-right: 0;
+    text-align: left;
+    display: block;
+    text-transform: uppercase;
+}
+.menu ul li a:hover {
+    font-size: 15px;
+	color:#000;
+}
+.menu ul li:last-child{
+	border:0;
+	margin:0;
+	padding:0;
+}
+.nav ul li {
+    float: none;
+    border-bottom: 1px solid #ccc;
+	margin: 0 !important;
+}
+.nav ul li:hover {	
+	    background: #ffffffa6;
+		
+}
+.menu-ac {
+	display: block;
+	width:90px;
+}
+.nav {
+  position: absolute;
+   top: 90px;
+    left: 0px;
+}
+}
+@media (min-width: 767px ){
+	.menu-ac {
+    display: none;
+}
+.pymt {
+    margin: 10px auto !important;
+}
+
+
+}
+
+@media (max-width: 990px) and (min-width: 768px){
+.slimain{
+	z-index:9;
+}
+.ac {
+    display: none;
+    background: rgb(0 0 0 / 61%);
+    padding: 20px;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 15px;
+    border-right: 0;
+    text-align: left;
+    display: block;
+    text-transform: uppercase;
+}
+.menu ul li a:hover {
+    font-size: 15px;
+	color:#000;
+}
+.menu ul li:last-child{
+	border:0;
+	margin:0;
+	padding:0;
+}
+.nav ul li {
+    float: none;
+    border-bottom: 1px solid #ccc;
+	margin: 0 !important;
+}
+.nav ul li:hover {	
+	    background: #ffffffa6;
+		
+}
+.menu-ac {
+	display: block;
+	width:90px;
+}
+.nav{
+   /* background:rgba(0,0,0,0.3);*/
+	position:relative;
+	top:0px;
+	left:0;
+}
+}
