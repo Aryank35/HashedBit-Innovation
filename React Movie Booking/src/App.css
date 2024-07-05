@@ -1,0 +1,15 @@
+body{
+  background-color: #769ad4;
+
+}
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background: rgb(144,30,57);
+background: linear-gradient(90deg, rgba(144,30,57,1) 0%, rgba(247,7,74,1) 50%, rgba(135,13,42,1) 100%);
+  padding: 20px;
+  color: white;
+}

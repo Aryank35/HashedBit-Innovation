@@ -7,5 +7,5 @@ function reverseString(input) {
   }
   
   const input = "Hello";
-  console.log(reverseString(input)); 
+  console.log(reverseString(input));
   
